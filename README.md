@@ -1,14 +1,14 @@
-# 💰 Vue Google Adsense
+# 💰 Vue Google Adsense (aqz' fork)
+
+Forked from https://github.com/mazipan/vue-google-adsense.
 
 ![License](https://img.shields.io/github/license/mazipan/vue-google-adsense.svg?maxAge=3600) [![Size on Bundlephobia](https://badgen.net/bundlephobia/minzip/vue-google-adsense)](https://bundlephobia.com/result?p=vue-google-adsense) [![install size](https://packagephobia.com/badge?p=vue-google-adsense)](https://packagephobia.com/result?p=vue-google-adsense) [![Build and Deploy](https://github.com/mazipan/vue-google-adsense/actions/workflows/deploy.yml/badge.svg)](https://github.com/mazipan/vue-google-adsense/actions/workflows/deploy.yml) [![version](https://img.shields.io/npm/v/vue-google-adsense.svg?maxAge=60)](https://www.npmjs.com/package/vue-google-adsense) ![next-verion](https://img.shields.io/npm/v/vue-google-adsense/next) ![downloads](https://img.shields.io/npm/dt/vue-google-adsense.svg?maxAge=3600) [![All Contributors](https://img.shields.io/github/contributors/mazipan/vue-google-adsense)](#contributors)
 
 > Vue.js Google Adsense Component with InFeed and InArticle Ads support
 
-## Vue 2
+## Vue Version
 
-You are seing `vue-google-adsense@2.x.x` which ONLY compatible for Vue 3, if you want to support Vue 2, please use `vue-google-adsense@1.x.x`.
-
-Documentation for `vue-google-adsense@1.x.x` can be found on the branch [v1-for-vue2](https://github.com/mazipan/vue-google-adsense/tree/v1-for-vue2)
+ONLY compatible for Vue 3
 
 ## 🎉 Demo
 
@@ -160,18 +160,6 @@ app.use(Ads.AutoAdsense, { adClient: 'YOUR_GOOGLE_AD_CLIENT', isNewAdsCode: true
 | `is-new-ads-code` | String (`yes` or `no`) | `no`      | Use new Adsense code (per 19 july 2021), [read more](https://support.google.com/adsense/answer/10627874) |
 | `data-ad-region` | String | `empty`      | See PR [#163](https://github.com/mazipan/vue-google-adsense/pull/163) |
 
-## :metal: Who is using this library
-
-Already used in production for these project :
-
-+ [Blog-2.0](https://github.com/mazipan/blog-2.0)
-+ [Explore-Github](https:///mazipan.github.io/explore-github)
-+ [Fire Jak](https://mazipan.github.io/FireJak)
-+ [Rumah Sakit Jakarta](https://mazipan.github.io/RumahSakitJakarta)
-+ [ChuckNorris](https://mazipan.github.io/chucknorris)
-+ [Nuxt blog - Surmon.me](https://github.com/surmon-china/surmon.me)
-+ Etc... // You can add the list here via pull request
-
 ## 🏃 Development
 
 We are using [pnpm](https://pnpm.js.org/), please read the [Installation](https://pnpm.js.org/en/installation) section first.
@@ -190,11 +178,9 @@ pnpm run build:lib
 
 ## Support me
 
-- 👉 🇮🇩 [Trakteer](https://trakteer.id/mazipan?utm_source=github)
-- 👉 🌍 [BuyMeACoffe](https://www.buymeacoffee.com/mazipan?utm_source=github)
-- 👉 🌍 [Paypal](https://www.paypal.me/mazipan?utm_source=github)
-- 👉 🌍 [Ko-Fi](https://ko-fi.com/mazipan)
+- 👉 [GitHub Sponsors](https://github.com/sponsors/tamaina)
+- 👉 [Amazon Wishlist](https://www.amazon.jp/hz/wishlist/ls/1MS8O2CUKPL8I)
 
 ---
 
-Copyright © 2018 Built with ❤️ by Irfan Maulana
+Copyright © 2022 aqz/tamaina © 2018 Irfan Maulana
